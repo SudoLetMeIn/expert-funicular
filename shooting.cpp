@@ -25,7 +25,7 @@ void printBoard(char me,int x,int y){
 		if(i==1)printf("\t\ttotal attempts : %d",attempts);
 		printf("\n");
 	}
-	printf("Press 'p' to shoot\nPress \"ASWD\" to move around!!\n ");
+	printf("Press 'p' to shoot\nPress \"ASWD\" to move around!!\n!!!'X' = hit, 'O' = miss!!!\n");
 	printf("\n\nx : %d\ny : %d\n",x,y);
 }
 int isithead(int x,int y){
