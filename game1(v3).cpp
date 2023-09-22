@@ -304,6 +304,6 @@ while(!max_num_reached){
 		yout<<line<<std::endl;
 	}
 	system("cls");
-	system("g++ shooting.cpp");
+	system("g++ -o shooting shooting.cpp");
 	system("shooting.exe");
 }
